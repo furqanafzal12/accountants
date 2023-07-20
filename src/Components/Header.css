@@ -1,0 +1,24 @@
+.header{
+            margin: 0;
+            padding: 0;
+            background-image: url('https://images.pexels.com/photos/6326384/pexels-photo-6326384.jpeg?auto=compress&cs=tinysrgb&w=600'); /* Replace 'your-image-url.jpg' with the actual image URL */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-color: #fff;
+            height: 80vh; 
+            /* Replace with the color you want in the center */
+        }
+        .header::before,
+        .header::after {
+          content: "";
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          height: 80vh; 
+          width: 400px; /* Adjust this value to control the width of the shadows */
+          background-image: linear-gradient(to right, rgba(231, 224, 31, 0.3), rgba(41, 223, 84, 0));
+        }
+       
+
+       
